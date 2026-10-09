@@ -1,0 +1,767 @@
+    1  exit
+    2  ls
+    3  ./wg_n.sh 
+    4  ls
+    5  cat client.conf 
+    6  ./wg_n.sh 
+    7  ls
+    8  cat wg_n.sh 
+    9  cat client.conf 
+   10  ./wg_n.sh 
+   11  ls
+   12  ./wg_n.sh 
+   13  pwd
+   14  cat wg_n.sh 
+   15  ls
+   16  ./wg_n.sh 
+   17  df -h
+   18  du -h
+   19  journalctl 
+   20  journalctl -u wg-quick@wg0.service
+   21  cat wg-quick@wg0.service
+   22  ls
+   23  cat wireguard_install.log 
+   24  cd ..
+   25  ls
+   26  cd etc
+   27  ls
+   28  cd services
+   29  cat services 
+   30  ls
+   31  cd systemd/
+   32  ls
+   33  cd system/
+   34  ls
+   35  cd ..
+   36  cd .
+   37  cd ..
+   38  ls
+   39  cd boot
+   40  c d..
+   41  cd ~
+   42  св юю
+   43  cd ..
+   44  ls
+   45  cd root
+   46  journalctl -u syslog.service
+   47  ls
+   48  cat wg_n.sh 
+   49  ./wg_n.sh 
+   50  rm client_41.conf 
+   51  ls
+   52  git clone [https://git.digitalstudium.com/digitalstudium/grafana-docker-stack](https://git.digitalstudium.com/digitalstudium/grafana-docker-stack) 
+   53  git clone [https://git.digitalstudium.com/digitalstudium/grafana-docker-stack](https://git.digitalstudium.com/digitalstudium/grafana-docker-stack 
+   54  git clone https://git.digitalstudium.com/digitalstudium/grafana-docker-stack
+   55  git clone https://github.com/digitalstudium/grafana-docker-stack.git
+   56  apt update && apt install docker.io
+   57  docker swarm init
+   58  docker stack deploy -c grafana-docker-stack/docker-compose.yml monitoring
+   59  docker ps
+   60  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+   61  docker ps | grep prometheus
+   62  docker kill -s SIGHUP 6e4bf5961b81
+   63  curl -v http://62.60.238.139:9090/-/healthy
+   64  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+   65  docker ps | grep prometheus
+   66  docker kill -s SIGHUP 6e4bf5961b81
+   67  docker ps
+   68  docker logs
+   69  docker logs 6e4bf5961b81
+   70  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+   71  docker ps
+   72  docker kill -s SIGHUP 6e4bf5961b81
+   73  curl http://localhost:9100/metrics
+   74  curl http://localhost:9100/metrics | grep node_cpu_seconds_total
+   75  curl http://localhost:9100/metrics | grep node_memory_MemAvailable
+   76  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+   77  curl http://localhost:9100/metrics | grep node_memory_MemAvailable
+   78  curl http://62.60.238.139:9100/metrics | grep node_memory_MemAvailable
+   79  sv866aFWLaQB
+   80  service grafana-server restart
+   81  ls
+   82  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+   83  docker ps | grep prometheus
+   84  docker kill -s SIGHUP 6e4bf5961b81
+   85  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+   86  docker ps | gre[ prometheus
+   87  docker ps | grep prometheus
+   88  docker kill -s SIGHUP 6e4bf5961b81
+   89  ps aux ni
+   90  ps -aux ni
+   91  ps axo pid,ni,comm,cmd
+   92  ps axo
+   93  ps aux
+   94  ps aux ni
+   95  ps aux pid, ni
+   96  ps aux pid,ni
+   97  ps aux pid,ni,comm,cmd
+   98  ps axo pid,ni,comm,cmd
+   99  ps aux --sort=ni
+  100  htop
+  101  top
+  102  ды
+  103  ls
+  104  учше
+  105  exot
+  106  exit
+  107  vmstat
+  108  exit
+  109  vmstat
+  110  htop
+  111  exit
+  112  ps aux --sort
+  113  ps aux --sort=mem
+  114  ps aux --sort=%mem
+  115  ps aux --sort=-%mem
+  116  ps aux --sort=-%cpu
+  117  vmstat
+  118  htop
+  119  ls
+  120  df
+  121  df -h
+  122  df -h --sort
+  123  df -h | sort -hr
+  124  df | sort -hr
+  125  df -h | sort -hr
+  126  df -h | sort -hr | head n -10
+  127  df -h | sort -hr | head -n 10
+  128  df -h | sort -hr | head -n 5
+  129  df -h | sort -hr | head -n 10
+  130  du -h --max-depth=1 /path | sort -hr | head
+  131  pwd
+  132  du -h --max-depth=1 /path | sort -hr | head
+  133  du -h --max-depth=1 /root | sort -hr | head
+  134  du -h /root | sort -hr | head -n 5
+  135  df -h /root | sort -hr | head -n 5
+  136  df -h | sort -hr | head -n 5
+  137  ./wg_n.sh 
+  138  rm client_41.conf 
+  139  ./wg_n.sh 
+  140  du -h
+  141  du -h | -hr | sort -n 10
+  142  du -h /root | -hr | sort -n 10
+  143  du -h /root | sort -hr | head -n 5
+  144  du -h /root | sort -h | head -n 5
+  145  du -h /root | sort -hr | head -n 5
+  146  du -sh
+  147  du -sh*
+  148  du -sh *
+  149  find / -size +100M
+  150  find / -size +100K
+  151  find / -size +100k
+  152  lsof
+  153  ps aux
+  154  lsof -p 2
+  155  ls
+  156  pwd
+  157  less /var/log/syslog
+  158  ап
+  159  fg
+  160  journalctl -u systemd | err
+  161  journalctl -u systemd | grep err
+  162  journalctl -u systemd | grep e
+  163  journalctl -u systemd | grep error
+  164  journalctl -u systemd | grep 
+  165  journalctl -u systemd 
+  166  journalctl -p
+  167  journalctl -p err
+  168  journalctl -p err -b
+  169  journalctl -p err -b -f
+  170  journalctl -u systemd
+  171  journalctl -u systemd today
+  172  journalctl -u systemd --today
+  173  journalctl -u systemd -today
+  174  journalctl -p systemd -today
+  175  journalctl -b -f
+  176  journalctl -f
+  177  ап
+  178  fg
+  179  ip a
+  180  ss -tlnp
+  181  ss -tulnp
+  182  ss -tulnp 8080
+  183  ip a | grep inet
+  184  df -h
+  185  sudo wg show
+  186  nano /usr/local/bin/wg-check.sh
+  187  sudo chmod +x /usr/local/bin/wg-check.sh
+  188  sudo /usr/local/bin/wg-check.sh
+  189  nano /usr/local/bin/wg-check.sh
+  190  sudo /usr/local/bin/wg-check.sh
+  191  ip link show | grep wg
+  192  nano /usr/local/bin/wg-check.sh
+  193  sudo /usr/local/bin/wg-check.sh
+  194  clear
+  195  sudo /usr/local/bin/wg-check.sh
+  196  nano /usr/local/bin/wg-check.sh
+  197  sudo /usr/local/bin/wg-check.sh
+  198  sudo wg show wg0 dump
+  199  sudo /usr/local/bin/wg-check.sh
+  200  nano /usr/local/bin/wg-check.sh
+  201  sudo /usr/local/bin/wg-check.sh
+  202  nano /usr/local/bin/wg-check.sh
+  203  sudo /usr/local/bin/wg-check.sh
+  204  ls
+  205  cat client_17.conf 
+  206  pwd
+  207  nano /usr/local/bin/wg-check.sh
+  208  sudo /usr/local/bin/wg-check.sh
+  209  sudo ls /root/client_*.conf | head -5
+  210  sudo ls /root/client_*.conf | head -20
+  211  nano /usr/local/bin/wg-check.sh
+  212  sudo ls /root/client_*.conf | head -20
+  213  sudo /usr/local/bin/wg-check.sh
+  214  cat client_1.conf 
+  215  cat client_10.conf 
+  216  sudo ls /root/client_*.conf | wc -l
+  217  sudo head -5 /root/client_1.conf
+  218  sudo wg show wg0 dump | head -2 | awk '{print $1}'
+  219  nano /usr/local/bin/wg-check.sh
+  220  ls var/bin/
+  221  sudo nano /usr/local/bin/wg-check.sh
+  222  sudo /usr/local/bin/wg-check.sh
+  223  sudo nano /usr/local/bin/wg-check.sh
+  224  sudo /usr/local/bin/wg-check.sh
+  225  sudo /usr/local/bin/wg-check.sh
+  226  cd /usr/local/bin
+  227  wget https://github.com/MindFlavor/prometheus-wireguard-exporter/releases/latest/download/prometheus-wireguard-exporter_linux_amd64
+  228  curl https://github.com/MindFlavor/prometheus-wireguard-exporter/releases/latest/download/prometheus-wireguard-exporter_linux_amd64
+  229  wget https://github.com/MindFlavor/prometheus_wireguard_exporter.git
+  230  sudo chmod +x wireguard_exporter
+  231  cd /usr/local/bin
+  232  sudo chmod +x wireguard_exporter
+  233  git clone https://github.com/MindFlavor/prometheus_wireguard_exporter.git
+  234  sudo chmod +x prometheus_wireguard_exporter
+  235  sudo nano /etc/systemd/system/prometheus_wireguard_exporter.service
+  236  [Unit]
+  237  Description=WireGuard Prometheus Exporter
+  238  After=network.target wireguard.service
+  239  [Service]
+  240  Type=simple
+  241  ExecStart=/usr/local/bin/wireguard-exporter     -web.listen-address=:9586     -wireguard.interfaces=wg0
+  242  Restart=always
+  243  RestartSec=5
+  244  User=root
+  245  Group=root
+  246  # Безопасность (опционально)
+  247  NoNewPrivileges=yes
+  248  ProtectSystem=strict
+  249  ProtectHome=yes
+  250  ReadWritePaths=/proc
+  251  [Install]
+  252  sudo nano /etc/systemd/system/prometheus_wireguard_exporter.service
+  253  sudo systemctl daemon-reload
+  254  sudo systemctl enable wireguard-exporter
+  255  sudo systemctl enable prometheus_wireguard_exporter
+  256  sudo systemctl start prometheus_wireguard_exporter
+  257  sudo systemctl status prometheus_wireguard_exporter
+  258  curl http://62.60.238.139:9586/metrics
+  259  curl http://localhost:9586/metrics
+  260  sudo systemctl status prometheus_wireguard_exporter
+  261  file /usr/local/bin/prometheus_wireguard_exporter
+  262  ls /usr/local/bin/prometheus_wireguard_exporter
+  263  sudo rm -rf /usr/local/bin/prometheus_wireguard_exporter
+  264  sudo wget -O /usr/local/bin/wireguard-exporter https://github.com/MindFlavor/prometheus-wireguard-exporter/releases/download/v3.2.0/prometheus-wireguard-exporter_linux_amd64
+  265  sudo rm -f wireguard-exporter prometheus_wireguard_exporter
+  266  sudo wget -O wireguard-exporter https://github.com/kumina/prometheus-wireguard-exporter/releases/download/v0.6.0/wireguard-exporter_0.6.0_linux_amd64
+  267  sudo wget -O wireguard-exporter https://github.com/kumina/prometheus-wireguard-exporter/releases/download/v0.6.0/wireguard-exporter_0.6.0_linux_amd64 
+  268  curl -s https://api.github.com/repos/kumina/prometheus-wireguard-exporter/releases | grep -E '"tag_name"|"browser_download_url.*amd64"' | head -20
+  269  curl -s https://api.github.com/repos/MindFlavor/prometheus-wireguard-exporter/releases | grep -E '"tag_name"|"browser_download_url.*amd64"' | head -20
+  270  sudo mkdir -p /opt/wireguard-exporter
+  271  sudo nano /opt/wireguard-exporter/docker-compose.yml
+  272  cd /opt/wireguard-exporter
+  273  curl -s http://localhost:9586/metrics | grep wireguard | head -10
+  274  docker-compose up -d
+  275  apt install docker-compose
+  276  docker-compose up -d
+  277  sudo nano /opt/wireguard-exporter/docker-compose.yml
+  278  sudo docker-compose up -d
+  279  sudo nano /opt/wireguard-exporter/docker-compose.yml
+  280  sudo docker-compose up -d
+  281  sudo apt install golang-go git -y
+  282  cd /tmp
+  283  git clone https://github.com/prometheus-community/prometheus-wireguard-exporter.git
+  284  cd /tmp
+  285  git clone https://github.com/prometheus-community/prometheus-wireguard-exporter.git
+  286  cd prometheus-wireguard-exporter
+  287  ls
+  288  cd ..
+  289  rm prometheus-wireguard-exporter/
+  290  rm -f cd prometheus-wireguard-exporter
+  291  rm prometheus-wireguard-exporter/
+  292  rm -f prometheus-wireguard-exporter/
+  293  sudo rm -f cd prometheus-wireguard-exporter
+  294  sudo rm if prometheus-wireguard-exporter
+  295  sudo rm -f prometheus-wireguard-exporter
+  296  sudo rm -r prometheus-wireguard-exporter
+  297  cd /tmp
+  298  git clone https://github.com/prometheus-community/prometheus-wireguard-exporter.git
+  299  git config --global --unset credential.helper
+  300  git credential reject
+  301  rm -rf prometheus-wireguard-exporter
+  302  git clone https://github.com/prometheus-community/prometheus-wireguard-exporter.git
+  303  git clone git://github.com/prometheus-community/prometheus-wireguard-exporter.git
+  304  sudo rm -rf prometheus-wireguard-exporter*
+  305  sudo wget https://github.com/prometheus-community/prometheus-wireguard-exporter/archive/refs/heads/main.zip -O exporter.zip
+  306  sudo nano /usr/local/bin/wg-exporter.sh
+  307  sudo chmod +x /usr/local/bin/wg-exporter.sh
+  308  sudo apt install socat -y
+  309  sudo nano /etc/systemd/system/wg-exporter.service
+  310  sudo systemctl daemon-reload
+  311  sudo systemctl enable wg-exporter
+  312  sudo systemctl start wg-exporter
+  313  sudo systemctl status wg-exporter
+  314  curl -s http://localhost:9586/ | grep wireguard | head -20
+  315  sudo netstat -tlnp | grep 9586
+  316  sudo ss -tlnp | grep 9586
+  317  sudo journalctl -u wg-exporter -n 30
+  318  sudo /usr/local/bin/wg-exporter.sh | head -20
+  319  sudo apt install python3 python3-pip -y
+  320  pip3 install python-telegram-bot --user
+  321  nano ~/bot13.py
+  322  chmod +x ~/bot13.py
+  323  python3 ~/bot13.py 
+  324  nano ~/bot13.py
+  325  python3 ~/bot13.py 
+  326  pip3 install "python-telegram-bot[job-queue]" --user
+  327  python3 ~/bot13.py
+  328  nano ~/bot13.py
+  329  python3 ~/bot13.py
+  330  nano ~/bot13.py
+  331  python3 ~/bot13.py
+  332  nano ~/bot13.py
+  333  python3 ~/bot13.py
+  334  nano ~/bot13.py
+  335  python3 ~/bot13.py
+  336  ls
+  337  pwd
+  338  sudo nano /etc/systemd/system/bot13.service
+  339  sudo systemctl daemon-reload
+  340  sudo systemctl enable bot13
+  341  sudo systemctl start bot13
+  342  sudo systemctl status bot13
+  343  sudo journalctl -u bot13 -f
+  344  sudo systemctl status bot13
+  345  nano ~/bot13.py
+  346  sudo journalctl -u bot13 -f
+  347  nano ~/bot13.py
+  348  sudo journalctl -u bot13 -f
+  349  nano ~/bot13.py
+  350  sudo journalctl -u bot13 -f
+  351  nano ~/bot13.py
+  352  sudo journalctl -u bot13 -f
+  353  nano ~/bot13.py
+  354  sudo journalctl -u bot13 -f
+  355  nano ~/bot13.py
+  356  sudo journalctl -u bot13 -f
+  357  grep "time(13, 28)" /root/bot13.py
+  358  nano ~/bot13.py
+  359  sudo journalctl -u bot13 -f
+  360  sudo journalctl -u bot13 --since "10:30" --until "10:40"
+  361  cat /var/lib/bot13/last_sent.json
+  362  timedatectl
+  363  sudo journalctl -u bot13 --since "Today" --no-pager | grep "Daily check"
+  364  nano ~/bot13.py
+  365  sudo systemctl restart bot13
+  366  sudo journalctl -u bot13 -f
+  367  pip3 uninstall python-telegram-bot -y
+  368  pip3 install "python-telegram-bot[job-queue]" --upgrade --user
+  369  python3 -c "import telegram; print(telegram.__version__)"
+  370  sudo systemctl restart bot13
+  371  sudo systemctl status bot13
+  372  sudo journalctl -u bot13 -f
+  373  nano ~/bot13.py
+  374  sudo systemctl restart bot13
+  375  sudo systemctl status bot13
+  376  sudo journalctl -u bot13 -f
+  377  nano ~/bot13.py
+  378  exit
+  379  journalctl -u bot13.service 
+  380  ls
+  381  cd ..
+  382  ls
+  383  ls var
+  384  ls
+  385  ls srv
+  386  ls run
+  387  ls 
+  388  ls etc
+  389  ld
+  390  ls
+  391  ls home
+  392  python3 ~/bot13.py
+  393  sudo /usr/local/bin/wg-check.sh
+  394  proc/memimfo
+  395  /proc/memimfo
+  396  slabtop
+  397  slabtop -o
+  398  dmesg | grep -i oom
+  399  $jJjH%E)g;
+  400  minikube --version
+  401  ss -tunapl
+  402  ss -tunapl | grep 9090
+  403  ss -tunapl | grep 9100
+  404  netstat -tunapl
+  405  sudo /usr/local/bin/wg-check.sh
+  406  ls
+  407  nano 0
+  408  ls
+  409  cd /
+  410  ls
+  411  cd ..
+  412  ls
+  413  cd root
+  414  ls
+  415  ls
+  416  cd ..
+  417  ls
+  418  cd bin
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd root
+  423  kubectl get pods -n <namespace>
+  424  minikube --version
+  425  kubectl minikube --version
+  426  exit
+  427  ls
+  428  ps aux --sort=-%mem | head -20
+  429  iostat -x 2
+  430  root      194078  0.0  0.1  13816  8804 ?        Ss   06:47   0:00 sshd: root@pts/0
+  431  root         739  0.0  0.0  17368  7612 ?        Ss   Feb19   0:06 /lib/systemd/systemd-logind
+  432  du -sh /var/log/
+  433  du -sh /home/
+  434  sync
+  435  # Очистка Page Cache только (безопасно)
+  436  echo 1 > /proc/sys/vm/drop_caches
+  437  slabtop
+  438  free -h
+  439  du -h
+  440  df -h
+  441  free -h 
+  442  swap
+  443  swap -h
+  444  free -h | grep available
+  445  htop
+  446  cat /proc/meminfo | head
+  447  free -h 
+  448  sudo sync
+  449  echo 3 | sudo tee /proc/sys/vm/drop_caches
+  450  free -h 
+  451  cat /proc/meminfo -h | head
+  452  cat /proc/meminfo
+  453  free -h
+  454  echo 3 > /proc/sys/vm/drop_caches
+  455  free -h
+  456  ./wg_n.sh
+  457  ды
+  458  ls
+  459  pwd
+  460  ip
+  461  ss
+  462  netstat
+  463  pwd
+  464  ls
+  465  ./wg_n.sh
+  466  ls
+  467  ./wg_n.sh
+  468  exit
+  469  sync
+  470  echo 1 > /proc/sys/vm/drop_caches
+  471  sync
+  472  echo 1 > /proc/sys/vm/drop_caches
+  473  free -h
+  474  free
+  475  sudo swapoff -a
+  476  sudo swapon -a
+  477  free
+  478  htop
+  479  ls
+  480  cat bot13.py 
+  481  cat bot13.py less
+  482  cat bot13.py | less
+  483  clear
+  484  ls
+  485  cd ..
+  486  ls
+  487  cat swapfile 
+  488  qqqqq
+  489  cd etc/
+  490  ls
+  491  cd ..
+  492  ls
+  493  ls bin
+  494  ls
+  495  ls boot
+  496  ls dev
+  497  ls
+  498  ls home
+  499  ls opt
+  500  ls proc/
+  501  ls lib
+  502  ls
+  503  ls sys
+  504  ls root
+  505  ls usr/
+  506  ls vR
+  507  ls var
+  508  cd root
+  509  ls
+  510  cat bot13.py | less
+  511  cd ..
+  512  ls etc
+  513  cd systemd
+  514  cd /systemd
+  515  cd systemd
+  516  cd etc/systemd
+  517  ls
+  518  cd system/
+  519  ls
+  520  cd root
+  521  cd /root
+  522  ls
+  523  sudo /usr/local/bin/wg-check.sh
+  524  cat /proc/meminfo | grep -E 'MemTotal|MemFree|MemAvailable|Buffers|Cached|Slab'
+  525  cat /proc/meminfo -h | grep -E 'MemTotal|MemFree|MemAvailable|Buffers|Cached|Slab'
+  526  cat /proc/meminfo | grep -E 'MemTotal|MemFree|MemAvailable|Buffers|Cached|Slab'
+  527  slabtop
+  528  dmesg | grep -i "out of memory\|killed process"
+  529  ps aux --sort=-%mem | head -20
+  530  free -h
+  531  free
+  532  sudo swapoff -a
+  533  free
+  534  sudo swapon -a
+  535  free
+  536  free -h
+  537  free
+  538  free -h
+  539  sudo swapoff -a
+  540  sudo swapon -a
+  541  free
+  542  free -h
+  543  free
+  544  journalctl
+  545  tail -n 100 /var/log/nginx/error.log
+  546  ls -lh /var/log/
+  547  tail -f /var/log/auth.log
+  548  less /var/log/syslog
+  549  less /var/log/syslog | grep "error"
+  550  ls
+  551  ./wg_n.sh 
+  552  htop
+  553  free -h
+  554  slabtop
+  555  free -i
+  556  df -i
+  557  top
+  558  cat /proc/meminfo
+  559  restart
+  560  ls
+  561  cd ..
+  562  ls
+  563  cd srv
+  564  ls
+  565  cd ..
+  566  htop~
+  567  htop
+  568  cd /
+  569  mkdir huuuui
+  570  ls
+  571  cd huuuui/
+  572  nano hui
+  573  ls
+  574  cd ..
+  575  `w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w,`w, w,#w,
+  576  cd ..
+  577  cd bin
+  578  ls
+  579  cd ..
+  580  cd usr/
+  581  ls
+  582  cd bin
+  583  ls
+  584  cd ..
+  585  cd share/
+  586  ls
+  587  pwd
+  588  cd grafana
+  589  cd ..
+  590  cd bin/containerd
+  591  cd bin
+  592  ls
+  593  ls | grep containerd
+  594  cd containerd-shim-runc-v2
+  595  cat containerd
+  596  cd ..
+  597  cd etc
+  598  ls
+  599  cat gai.conf 
+  600  cat gai.conf less
+  601  cat gai.conf | less
+  602  cd ..
+  603  cd root
+  604  ss -tlnp
+  605  docker ps
+  606  docker restart  monitoring_grafana.1.pjv1eq9r18r8gr4s2onprhndk
+  607  docker restart monitoring_prometheus.1.0ava4479aqsqsjhqfhq2nbfcd
+  608  docker restart monitoring_node-exporter.1.c4pyniejjh82c9kd36o23sxvi
+  609  docker stop monitoring_grafana.1.pjv1eq9r18r8gr4s2onprhndk, monitoring_prometheus.1.0ava4479aqsqsjhqfhq2nbfcd, monitoring_node-exporter.1.c4pyniejjh82c9kd36o23sxvi
+  610  docker ps
+  611  docker kill cae0a0838704
+  612  docker ps
+  613  docker images
+  614  docker kill 1d399d747473, feb2cf0de3d9, ca24d3a18b4a
+  615  docker ps
+  616  docker stop 5b31e07314e1 
+  617  docker ps
+  618  docker-compose kill -d
+  619  docker-compose stop -d
+  620  docker ps
+  621  docker stop monitoring_prometheus.1.mnkwsm16hsywfgknqu2j2i6qt
+  622  docker ps
+  623  ip -a
+  624  docker build 28f036969200
+  625  docker build prom/prometheus:v2.36.0
+  626  docker images
+  627  docker build 495723bc62c1
+  628  docker stop
+  629  docker pd
+  630  docker ps
+  631  sudo systemctl stop docker
+  632  docker ps
+  633  sudo systemctl start docker
+  634  docker ps
+  635  docker ps | grep prometheus
+  636  docker kill -s SIGHUP 7a84102ae079
+  637  docker ps | grep prometheus
+  638  docker kill -s KILL 7a84102ae079
+  639  docker ps | grep prometheus
+  640  docker ps
+  641  docker kill -s KILL 7a84102ae079
+  642  docker update --restart=no monitoring_prometheus.1.ml3eptifysj4zmeescvat6x1x
+  643  docker ps
+  644  docker update --restart=no monitoring_prometheus.1.ml3eptifysj4zmeescvat6x1x
+  645  docker stop monitoring_prometheus.1.ml3eptifysj4zmeescvat6x
+  646  docker ps
+  647  docker update --restart=no monitoring_node-exporter.1.d0ah8havckvzll4jbjyb2ledl
+  648  docker stop monitoring_node-exporter.1.d0ah8havckvzll4jbjyb2ledl
+  649  docker update --restart=no monitoring_grafana.1.ljs54lxggv1vap3wbzexf7lkj
+  650  docker stop monitoring_grafana.1.ljs54lxggv1vap3wbzexf7lkj
+  651  docker ps
+  652  ss -tlnp
+  653  docker ps
+  654  docker stack deploy -c grafana-docker-stack/docker-compose.yml monitoring
+  655  docker ps
+  656  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+  657  docker restart monitoring_prometheus.1.v7m95ce0sgf1cexwg6dovg48h
+  658  docker ps
+  659  docker kill -s KILL 727e081e7e54
+  660  docker kill -s KILL monitoring_prometheus.1.v7m95ce0sgf1cexwg6dovg48h
+  661  nano /var/lib/docker/volumes/monitoring_prom-configs/_data/prometheus.yml
+  662  docker
+  663  docker ps
+  664  /run.sh
+  665  docker exec /run.sh
+  666  sudo systemctl status docker
+  667  docker ps
+  668  docker rm -f monitoring_prometheus.1.jv4isuk6h760eeirt0p73jkzs
+  669  docker ps
+  670  ping 62.60.238.139:3000
+  671  docker ps | grep prometheus
+  672  docker kill -s SIGHUP 40d417ba44df
+  673  docker ps
+  674  docker exec -it monitoring_prometheus.1.exm7i50o553z1ybjwinn7397c sh
+  675  docker logs monitoring_prometheus.1.exm7i50o553z1ybjwinn7397c 
+  676  docker exec -it monitoring_prometheus.1.exm7i50o553z1ybjwinn7397c sh
+  677  cd ..
+  678  ls
+  679  nano wg_n.sh 
+  680  .\wg_n.sh 
+  681  wg_n.sh 
+  682  ./wg_n.sh 
+  683  ды
+  684  ls
+  685  # Синхронизация данных на диск
+  686  sync
+  687  # Очистка Page Cache только (безопасно)
+  688  echo 1 > /proc/sys/vm/drop_caches
+  689  # ИЛИ очистка Page Cache + dentries + inodes (более полная)
+  690  echo 3 > /proc/sys/vm/drop_caches
+  691  ls
+  692  ./wg_n.sh 
+  693  free -h
+  694  sudo swapoff
+  695  sudo swap off
+  696  cd /
+  697  ls
+  698  cd dev
+  699  ls
+  700  cd ..
+  701  cd etc/
+  702  ls
+  703  cd ..
+  704  cd huuuui/
+  705  ls
+  706  cd ..
+  707  ls
+  708  cd home/
+  709  ls
+  710  cd ..
+  711  cd mnt/
+  712  ls
+  713  cd ..
+  714  cd opt/
+  715  ls
+  716  cd ..
+  717  cd root/
+  718  ls
+  719  ./wg_n.sh 
+  720  ls
+  721  nano wg_n.sh 
+  722  ./wg_n.sh 
+  723  ls
+  724  cd ~/.ssh
+  725  ls
+  726  nano authorized_keys 
+  727  cd
+  728  ls
+  729  rm -rf client_106.conf 
+  730  ls
+  731  quit
+  732  exit
+  733  ls
+  734  cd mephi-linux-security-2026/
+  735  sudo -iu user1
+  736  git clone https://github.com/Zhembr/mephi-linux-security-2026
+  737  ls
+  738  cd mephi-linux-security-2026/
+  739  groupadd -f students
+  740  useradd -u 1234 -g students -m -s /bin/bash user1
+  741  echo "user1:TempPassword123!" | chpasswd
+  742  chage -M 90 user1
+  743  chage -m 0 user1
+  744  id user1
+  745  chage -l user1
+  746  sudo cp /bin/cat /home/user1/cat
+  747  sudo chown root:root /home/user1/cat
+  748  sudo chmod 4755 /home/user1/cat
+  749  ls -la /home/user1/cat
+  750  su - user1
+  751  touch /home/user1/testfile.txt
+  752  chown user1:students /home/user1/testfile.txt
+  753  ls -l /home/user1/testfile.txt
+  754  cp /usr/bin/chown /home/user1/chown_cap
+  755  setcap cap_chown=ep /home/user1/chown_cap
+  756  getcap /home/user1/chown_cap
+  757  su - user1
+  758  touch /home/user1/testfile.txt
+  759  chown user1:students /home/user1/testfile.txt
+  760  cp /usr/bin/chown /home/user1/chown_cap
+  761  setcap cap_chown=ep /home/user1/chown_cap
+  762  getcap /home/user1/chown_cap
+  763  su - user1
+  764  whoami
+  765  visudo -f /etc/sudoers.d/user1_time
+  766  su - user1
+  767  history > ~/history.out 
